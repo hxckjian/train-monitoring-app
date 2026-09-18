@@ -1,0 +1,104 @@
+{
+  "metric": "mean linear rank-decay",
+  "primary_metric": 0.9375,
+  "top1_accuracy": 0.6666666666666666,
+  "split": "leave-one-train-out",
+  "seed": 42,
+  "random_operations": false,
+  "folds": [
+    {
+      "file_id": "acv_case_03.xlsx",
+      "held_out_group": "A:0619",
+      "training_files": [
+        "acv_case_01.xlsx",
+        "acv_case_02.xlsx",
+        "acv_case_04.xlsx",
+        "acv_case_05.xlsx",
+        "acv_case_06.xlsx"
+      ],
+      "faulty_car": "03",
+      "ranked_cars": "03|04|08|01|02|07|06|05",
+      "rank": 1,
+      "score": 1.0
+    },
+    {
+      "file_id": "acv_case_01.xlsx",
+      "held_out_group": "A:0620",
+      "training_files": [
+        "acv_case_03.xlsx",
+        "acv_case_04.xlsx",
+        "acv_case_05.xlsx",
+        "acv_case_06.xlsx"
+      ],
+      "faulty_car": "01",
+      "ranked_cars": "01|06|05|08|07|03|04|02",
+      "rank": 1,
+      "score": 1.0
+    },
+    {
+      "file_id": "acv_case_02.xlsx",
+      "held_out_group": "A:0620",
+      "training_files": [
+        "acv_case_03.xlsx",
+        "acv_case_04.xlsx",
+        "acv_case_05.xlsx",
+        "acv_case_06.xlsx"
+      ],
+      "faulty_car": "02",
+      "ranked_cars": "02|06|01|07|04|08|03|05",
+      "rank": 1,
+      "score": 1.0
+    },
+    {
+      "file_id": "acv_case_04.xlsx",
+      "held_out_group": "B:0208",
+      "training_files": [
+        "acv_case_01.xlsx",
+        "acv_case_02.xlsx",
+        "acv_case_03.xlsx",
+        "acv_case_05.xlsx",
+        "acv_case_06.xlsx"
+      ],
+      "faulty_car": "01",
+      "ranked_cars": "04|02|01|05|06|07|08|03",
+      "rank": 3,
+      "score": 0.75
+    },
+    {
+      "file_id": "acv_case_05.xlsx",
+      "held_out_group": "C:0407",
+      "training_files": [
+        "acv_case_01.xlsx",
+        "acv_case_02.xlsx",
+        "acv_case_03.xlsx",
+        "acv_case_04.xlsx",
+        "acv_case_06.xlsx"
+      ],
+      "faulty_car": "04",
+      "ranked_cars": "07|04|01|02|03|06|08|05",
+      "rank": 2,
+      "score": 0.875
+    },
+    {
+      "file_id": "acv_case_06.xlsx",
+      "held_out_group": "C:0408",
+      "training_files": [
+        "acv_case_01.xlsx",
+        "acv_case_02.xlsx",
+        "acv_case_03.xlsx",
+        "acv_case_04.xlsx",
+        "acv_case_05.xlsx"
+      ],
+      "faulty_car": "06",
+      "ranked_cars": "06|01|08|02|04|03|05|07",
+      "rank": 1,
+      "score": 1.0
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "openpyxl": "3.1.5"
+  }
+}

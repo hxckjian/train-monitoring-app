@@ -1,0 +1,120 @@
+[
+  {
+    "file": "acv_test_case.xlsx",
+    "sheet": "\u6545\u969c\u6848\u4f8b3-0620_20210624",
+    "shape": [
+      9082,
+      67
+    ],
+    "train": "0620",
+    "car_model": "A",
+    "start": "2021-06-24 00:00:00",
+    "end": "2021-06-27 23:59:30",
+    "dtypes": {
+      "str": 34,
+      "object": 32,
+      "datetime64[us]": 1
+    },
+    "missing_cells": 0,
+    "infinite_numeric_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_timestamps": 0,
+    "invalid_timestamps": 0,
+    "ordered": true,
+    "interval_counts": {
+      "30.0": 8888,
+      "90.0": 64,
+      "120.0": 43,
+      "60.0": 32,
+      "150.0": 13,
+      "180.0": 11,
+      "240.0": 10,
+      "210.0": 9,
+      "270.0": 2,
+      "300.0": 2
+    },
+    "constant_columns": 2,
+    "indoor_statistics": [
+      {
+        "car": "01",
+        "missing_or_invalid": 1068,
+        "minimum": 21.0,
+        "median": 24.5,
+        "maximum": 29.0,
+        "std": 0.9983461302669364,
+        "first_half_mean": 24.229941786889395,
+        "second_half_mean": 24.164164410534088
+      },
+      {
+        "car": "02",
+        "missing_or_invalid": 1068,
+        "minimum": 20.5,
+        "median": 24.0,
+        "maximum": 29.5,
+        "std": 0.9277585000775512,
+        "first_half_mean": 24.103771197165276,
+        "second_half_mean": 23.992370169825254
+      },
+      {
+        "car": "03",
+        "missing_or_invalid": 1068,
+        "minimum": 0.0,
+        "median": 24.0,
+        "maximum": 29.5,
+        "std": 0.9595714741575647,
+        "first_half_mean": 24.17046317388003,
+        "second_half_mean": 24.146074329313315
+      },
+      {
+        "car": "04",
+        "missing_or_invalid": 1068,
+        "minimum": 0.0,
+        "median": 24.0,
+        "maximum": 28.5,
+        "std": 1.5191421969964722,
+        "first_half_mean": 24.188180207542395,
+        "second_half_mean": 24.00959881860694
+      },
+      {
+        "car": "05",
+        "missing_or_invalid": 1068,
+        "minimum": 0.0,
+        "median": 24.0,
+        "maximum": 28.5,
+        "std": 0.9828551958185888,
+        "first_half_mean": 24.0876993166287,
+        "second_half_mean": 23.923455574698497
+      },
+      {
+        "car": "06",
+        "missing_or_invalid": 1068,
+        "minimum": 0.0,
+        "median": 24.0,
+        "maximum": 29.0,
+        "std": 0.9726262885374883,
+        "first_half_mean": 24.163376360415086,
+        "second_half_mean": 24.018336204774798
+      },
+      {
+        "car": "07",
+        "missing_or_invalid": 1068,
+        "minimum": 0.0,
+        "median": 24.0,
+        "maximum": 29.0,
+        "std": 1.0241941555927996,
+        "first_half_mean": 24.16628701594533,
+        "second_half_mean": 24.04971695791287
+      },
+      {
+        "car": "08",
+        "missing_or_invalid": 1068,
+        "minimum": 20.5,
+        "median": 24.0,
+        "maximum": 28.5,
+        "std": 0.8829982917308993,
+        "first_half_mean": 24.097317134902557,
+        "second_half_mean": 24.09980310115678
+      }
+    ]
+  }
+]
