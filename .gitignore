@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and operating system
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated predictions
+*_predictions.csv
+predictions.zip
+
+# Member handoff ZIPs
+handoffs/*.zip
+
+# Raw datasets
+data/
+02_Datasets/
+
+# Temporary files
+*.tmp
+*.log
